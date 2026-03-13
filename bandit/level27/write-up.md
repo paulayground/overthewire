@@ -13,7 +13,7 @@ ssh://bandit27-git@bandit.labs.overthewire.org/home/bandit27-git/repo에 포트 
 # Exploitation
 
 ```bash
-ssh://bandit27-git@bandit.labs.overthewire.org:2220/home/bandit27-git/repo
+git clone ssh://bandit27-git@bandit.labs.overthewire.org:2220/home/bandit27-git/repo
 ```
 
 # Flag
