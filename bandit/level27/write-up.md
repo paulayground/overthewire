@@ -4,23 +4,18 @@ linux
 
 # Overview
 
-분야:
-설명: (문제에서 제공된 짧은 설명이나 컨셉)
+ssh://bandit27-git@bandit.labs.overthewire.org/home/bandit27-git/repo에 포트 2220을 통해 접근 가능한 git 저장소가 있습니다. 사용자 bandit27-git의 비밀번호는 사용자 bandit27과 동일합니다.
 
 # Analysis
 
-제공 파일: (예: challenge.zip, 바이너리 파일명 등)
-
-취약점 분석: 소스 코드나 바이너리 분석을 통해 발견한 핵심 취약점 (예: SQL Injection, Buffer Overflow 등).
+문제에 제시된 git repo를 확인해보니 README 파일 발견.
 
 # Exploitation
 
-접근 방법: 문제를 해결하기 위해 시도한 논리적 단계.
-
-페이로드/코드: 해결에 사용한 핵심 스크립트나 명령어.
-
-과정 캡처: (필요 시) 실행 결과나 플래그가 출력되는 화면 캡처.
+```bash
+ssh://bandit27-git@bandit.labs.overthewire.org:2220/home/bandit27-git/repo
+```
 
 # Flag
 
-``
+`Yz...cN`
