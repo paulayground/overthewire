@@ -1,0 +1,2 @@
+1. 이전 레벨에서 획득한 pw로 ssh를 통한 host의 2220으로 접속
+2. data.txt 중 text로 되어있는 flag가 있고, flag 앞에 여러 개의 =가 있다고 하였으니 `strings data.txt | grep ===` 와 같이 바이너리 파일에서 텍스트를 추출하기 위해 `strings`를 사용하여 나온 결과를 ===이 시작하는 대상만 찾아 flag를 획들 할 수 있다.
