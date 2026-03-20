@@ -2,13 +2,13 @@
 
 # 풀이 과정 기록
 
-페이지 내에는 뭐 특이한게 역시나 없고, login과 관련된 내용을 썼으면 쿠키관련된 문제 아닐까 싶어 req, res 응답을 찾아봤다.
+페이지 내에는 뭐 특이한게 역시나 없고, login과 관련된 내용이라면 jwt나 쿠키 관련된 문제 아닐까 싶어 req, res 응답을 찾아봤다.
 
 # 익스플로잇 코드 정리
 
 # 심화 학습 (Deep Dive)
 
-curl을 통한 요청도 가능
+curl이나 python을 통한 요청도 가능
 
 ```
 curl -u natas5:0n..oK -H "Cookie: loggedin=1" http://natas5.natas.labs.overthewire.org/
