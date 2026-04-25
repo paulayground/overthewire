@@ -5,7 +5,7 @@ def request(sid: str):
     res = req(
         url="http://natas19.natas.labs.overthewire.org",
         method="GET",
-        auth=("natas19", "tnwER7PdfWkxsG4FNWUtoAZ9VyZTJqJr"),
+        auth=("natas19", "tn...Jr"),
         cookies={"PHPSESSID": sid},
     )
 
